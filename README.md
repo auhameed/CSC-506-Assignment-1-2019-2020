@@ -1,12 +1,13 @@
 # CSC-506-Assignment-1-2019-2020
 
-A web application that includes a home page, user registration and a landing page.
+The directory Register-Login Web App contains the features: A web application that includes a home page, user registration and a landing page.
+The directory Assignment 2 contains the features: A register user can post, other users can see the post and comment, and the comment is visibled to everyone to see.
 
-This Web Application Project is submitted to the department of Computer Science, Modibbo Adama University of Technology, Yola. 
+This Web Application Project is submitted to the department of Computer Science, Modibbo Adama University, Yola. 
 As an assignment on CSC 506 Web and Internet Programming.
 
 The Project assigment is created using React.js for the client-side, Node.js with Express for the server-side, the database is build with non-relational database MongoDB.
 
 How to run this Project Assignment:
-- Run npm install from the project terminal to install node_modules packages
-- Run npm start to the web application.
+- Run npm install from the project terminal to install node_modules packages.
+- Run npm start, to start the web application.
