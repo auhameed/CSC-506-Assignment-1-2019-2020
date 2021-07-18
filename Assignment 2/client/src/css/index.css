@@ -1,0 +1,182 @@
+html, body, #heroimage{
+  padding: 0px;
+  margin: 0px;
+}
+/* 
+#heroimage{    
+  background:url("https://wdimxa-dm2305.files.1drv.com/y4mwprQO7zwYX_MFlSS3vMery-Sq2Iuu6Fea3hbSbqy8tfCQGRFuAC-VbxQI3z8dhS3LTVYQ1YqGFKPguLKf1DN7v8kkyOaraEm9JfWgQNQcgcPz_aK-Zly0P610IsAFSDBH97iirLQIlFc_mBc3ElvMHeZ-S9vz5yBKCsUni_RufnqJO6rZFrg1odgi_uG0CCH3KGXR4N_tYwkyrSq-cVyUQ?width=1920&height=1200&cropmode=none");
+  opacity: 0.95;
+  position: absolute;
+  background-size:cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+} */
+
+h1 {
+  color: #6E3667;
+  font-size: 50px;
+  font-weight: normal;
+  font-family: Aclonica; 
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.post-section{
+  margin: 0 auto;
+  width: 100%;
+}
+.post-section h2{
+  margin-left: 40px;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: Aclonica; 
+}
+.post {
+  border: 1px dotted #6E3667;
+  width: 75%;
+  margin: 15px auto;
+  padding: 10px;
+}
+.post img {
+  width: 100%;
+  min-height: 500px;
+  max-height: 500px;
+  object-fit: fill;
+  object-position: center;
+}
+.post a {
+  text-decoration: none;
+}
+.post .button {
+  border: none;
+  background-color: #6E3667;
+  padding: 10px;
+  color: white;
+  width: 150px;
+}
+.post .button:hover{
+  background-color: transparent;
+  color: black;
+  border: 1px solid #6E3667
+}
+.showPost {
+  width: 90%;
+  margin: 70px auto;
+}
+.showPost img{
+  width: 100%;
+}
+.comment{
+  border-bottom: 1px dotted gray;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+.postComment form input, .postComment form textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #6E3667;
+  margin-bottom: 10px;
+  outline: none;
+}
+.postComment form textarea{
+  height: 100px;
+}
+.postComment form button, .newPost form button{
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border: 1px solid #6E3667;
+  background: #6E3667;
+  color: wheat;
+}
+.postComment form button:hover,.newPost form button:hover{
+  color: #6E3667;
+  background: transparent;
+  border: 1px solid #6E3667;
+}
+.newPost{
+  margin: 60px auto;
+  width: 80%;
+}
+.newPost h2{
+  text-align: center;
+  color: #6E3667;
+  font-size: 50px;
+  font-weight: normal;
+  font-family: Aclonica; 
+}
+.newPost form input, .newPost form textarea{
+  width: 90%;
+  outline: none;
+  margin-bottom: 10px;
+}
+.newPost form textarea{
+  height: 200px;
+}
+.navbar .navbar-brand {
+ font-family: Black Ops One;  
+ font-size: 28px;
+ color: #88D317;
+} 
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  background-color: #88D317;
+  color:  #6E3667;
+}
+
+.rwd-line { 
+    display: block; 
+}
+
+ @media screen and (min-width: 768px){
+   .rwd-line { display: inline; }
+}
+
+.navbar{
+  font-family: Black Ops One;  
+  background: #6E3667;
+  margin-bottom: 0px;
+  border: 0;
+  border-radius: 0px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#DevNavbar li a{
+  font-weight: bold;
+  color:  #88D317;
+  font-family: Black Ops One;  
+  font-size: 20px;
+}
+
+#DevNavbar li a:hover{
+  background: #88D317;
+  color:  #6E3667;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background: #88D317;
+}
+
+.navbar-inverse .navbar-toggle {
+    padding: 10px 10px 10px 10px;
+}
+
+@media (max-width: 767px) {
+  h1{margin-top: 20%;}
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: rgba(174, 117, 159, 1);
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: rgba(174, 117, 159, 1);
+    }
+    .post{
+      margin: 10 auto;
+      width: 95%;
+    }
+}
