@@ -9,10 +9,12 @@ As an assignment on CSC 506 Web and Internet Programming.
 The Project assigment is created using React.js for the client-side, Node.js with Express for the server-side, the database is build with non-relational database MongoDB.
 
 # PREREQUISITES:
+Must have an active internet connection.
 This setup is only for Windows OS;
 First, install the Node JS from https://nodejs.org/en/download/, then choose your OS architecture and click on download.
 Check if Node JS is properly installed, run node --v from terminal(CMD).
 
 # How to run this Project Assignment:
+- The PC must be connected to an active internet.
 - Run npm install from the project terminal to install node_modules packages.
 - Run npm start, to start the web application.
